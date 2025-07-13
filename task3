@@ -1,1 +1,51 @@
 
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>وبلاگ اینگونه خفن</title>
+   <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">My Epic Blog</h1>
+        <nav class="navigation">
+            <a href="#">خانه</a>
+            <a href="#">درباره</a>
+            <a href="#">پروفایل</a>
+            <a href="#">تماس</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay">
+            <h2 class="hero-title">به دنیای بی‌نظیر من خوش آمدید!</h2>
+            <p class="hero-subtitle">زیباترین مطالب، با طراحی بی‌نظیر و جذاب</p>
+            <a href="#" class="btn-primary">اکنون شروع کن</a>
+        </div>
+    </section>
+
+    <main class="content">
+        <article class="post-card">
+            <h3 class="post-title">پست اول خفن</h3>
+            <p class="post-excerpt">
+                این یه پست فوق‌العاده و پرانرژی هست که نگاه هر کسی رو جلب می‌کنه و حس تفاوت رو انتقال می‌ده.
+            </p>
+            <a href="#" class="btn-secondary">مطالعه کامل</a>
+        </article>
+        <article class="post-card">
+            <h3 class="post-title">پست دوم باحال</h3>
+            <p class="post-excerpt">
+                محتوای مخصوص کسانی که می‌خواهند متفاوت و خاص باشند. طراحی جذاب و کلمات تاثیرگذار.
+            </p>
+            <a href="#" class="btn-secondary">بیشتر ببینید</a>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 وبلاگ خفن من. ساخته شده با عشق و استایل</p>
+    </footer>
+</body>
+</html>
