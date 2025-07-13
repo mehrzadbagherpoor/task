@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>فروشگاه خفن ما</title>
+<link rel="stylesheet" href="css/task2.css" />
 
+<link href="https://fonts.googleapis.com/css2?family=Vazir&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">🔥 فروشگاه خفن 🔥</div>
+    <nav class="navbar">
+        <a href="#">خانه</a>
+        <a href="#">جدیدترین‌ها</a>
+        <a href="#">پرفروش‌ها</a>
+        <a href="#">تخفیفات</a>
+        <a href="#">امکانات ویژه</a>
+    </nav>
+</header>
+
+<section class="hero-section">
+    <h1 class="main-title">دیگه منتظر چی هستی؟ بهترین‌ها اینجاست!</h1>
+    <p class="sub-title">کشف نکن، همین حالا خرید کن و خفن‌ترین کالا ها را  داشته باش!</p>
+    <a href="#products" class="cta-btn">حالا شروع کن</a>
+</section>
+
+<section id="products" class="products-grid">
+
+    <div class="product-card metallic-shine">
+        <div class="product-image">
+            <img src="https://via.placeholder.com/200x200?text=Product+1" alt="Product 1" />
+        </div>
+        <h3 class="product-title">محصول ۱</h3>
+        <p class="product-price"><span>$19.99</span></p>
+        <button class="add-to-cart pulsate">افزودن به سبد</button>
+    </div>
+
+
+    <div class="product-card neon-glow">
+        <div class="product-image">
+            <img src="https://via.placeholder.com/200x200?text=Product+2" alt="Product 2" />
+        </div>
+        <h3 class="product-title">محصول ۲</h3>
+        <p class="product-price"><span>$21.99</span></p>
+        <button class="add-to-cart pulsate">افزودن به سبد</button>
+    </div>
+
+
+    <div class="product-card glitch-effect">
+        <div class="product-image">
+            <img src="https://via.placeholder.com/200x200?text=Product+3" alt="Product 3" />
+        </div>
+        <h3 class="product-title">محصول ۳</h3>
+        <p class="product-price"><span>$24.99</span></p>
+        <button class="add-to-cart pulsate">افزودن به سبد</button>
+    </div>
+
+ 
+    <div class="product-card shadow-flash">
+        <div class="product-image">
+            <img src="https://via.placeholder.com/200x200?text=Product+4" alt="Product 4" />
+        </div>
+        <h3 class="product-title">محصول ۴</h3>
+        <p class="product-price"><span>$9.99</span></p>
+        <button class="add-to-cart pulsate">افزودن به سبد</button>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>🔥 طراحی و توسعه توسط تیم خفن 🎯 | حقوق محفوظ است © 2023</p>
+</footer>
+
+</body>
+</html>
